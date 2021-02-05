@@ -1,17 +1,5 @@
-@font-face {
-  font-family: "Poppins Regular";
-  src: url(../frontendmentor06/Poppings/Poppins-Regular.ttf);
-}
-@font-face {
-  font-family: "Poppins Semi-Bold";
-  src: url(../frontendmentor06/Poppings/Poppins-SemiBold.ttf);
-}
-@font-face {
-  font-family: "Poppins Extra-Light";
-  src: url(../frontendmentor06/Poppings/Poppins-ExtraLight.ttf);
-}
 .container, .wrapper {
-  width: 90%;
+  width: 80%;
   max-width: 375px;
   margin: 0 auto;
 }
@@ -20,7 +8,6 @@ section {
   background-color: #fafafa;
   margin-bottom: 1rem;
   border-radius: 0.4rem;
-  font-family: Poppins Semi-Bold;
   font-weight: 600;
 }
 
@@ -43,7 +30,7 @@ html {
 }
 
 .container {
-  margin: 1.5rem auto;
+  margin: 4rem auto;
 }
 
 body {
@@ -61,18 +48,16 @@ header {
   align-items: center;
   flex-direction: column;
   margin-bottom: 2rem;
+  font-size:0.5rem;
 }
 header h1 {
   padding-bottom: 1rem;
-  font-size: 1.2rem;
 }
 header h1 span:first-child {
-  font-family: Poppins Extra-Light;
   font-weight: 200;
   color: #4c4e61;
 }
 header h1 span:nth-child(2) {
-  font-family: Poppins Semi-Bold;
   font-weight: 600;
 }
 header p {
@@ -81,22 +66,21 @@ header p {
 
 section p {
   color: #c7c9d1;
-  font-family: Poppins Extra-Light;
   font-weight: 200;
   font-size: 1rem;
   line-height: 1.5;
 }
 section h3 {
-  font-family: Poppins Semi-Bold;
+  font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 section .img {
   display: flex;
   justify-content: flex-end;
 }
 section .img img {
-  padding-top: 1.5rem;
+  padding: 1.5rem 0;
   width: 3em;
 }
 
@@ -120,9 +104,13 @@ section .img img {
   .container {
     max-width: 1440px;
   }
+   .container header {
+    font-size: 1rem;
+}
   .container header p {
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
+    font-size: initial;
   }
   .container .sections--grid {
     display: grid;
@@ -157,9 +145,13 @@ section .img img {
   .container {
     max-width: 1440px;
   }
+  .container header {
+    font-size: 1rem;
+}
   .container header p {
     margin: 0 auto;
     width: 50%;
+    font-size: initial;
   }
   .container .sections--grid {
     display: grid;
