@@ -48,7 +48,7 @@ html {
 }
 .container {
 	@extend %my-wrapper;
-	margin: 1.5rem auto;
+	margin: 4rem auto;
 }
 body {
 	background-color: $gray_light_color;
@@ -85,18 +85,19 @@ section {
 	p {
 		color: $grayish_blue_neutral_color;
 		font-weight: $weight-extra-light;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		line-height: 1.5;
 	}
 	h3 {
 		font-weight: $weight-semi-bold;
-		padding-bottom: 10px;
+		padding: 10px 0;
+                font-size: 1.5rem;
 	}
 	.img {
 		display: flex;
 		justify-content: flex-end;
 		img {
-			padding-top: 1.5rem;
+			padding: 1.5rem 0;
 			width: 3em;
 		}
 	}
